@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/game_icon"
+        android:icon="@android:drawable/btn_star_big_on"
+        android:title="Game" />
+    <item
+        android:id="@+id/web_icon"
+        android:icon="@android:drawable/ic_notification_overlay"
+        android:title="Web" />
+    <item
+        android:id="@+id/android_icon"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="Android" />
+</menu>
