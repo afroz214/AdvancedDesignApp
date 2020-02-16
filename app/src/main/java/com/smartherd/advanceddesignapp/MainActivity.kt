@@ -16,9 +16,9 @@ class MainActivity : AppCompatActivity() {
 
         //if you wanted the app to start with game fragment the remove -> // OR you wanted the default one then its ok
 
-        //val fragment = supportFragmentManager.beginTransaction()
-        //fragment.replace(R.id.frame_layout, game)
-        //fragment.commit()
+        val fragment = supportFragmentManager.beginTransaction()
+        fragment.replace(R.id.frame_layout, game)
+        fragment.commit()
 
 
 

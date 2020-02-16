@@ -22,7 +22,7 @@
                 android:id="@+id/image_item"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
-                app:srcCompat="@mipmap/ic_launcher" />
+                app:srcCompat="@drawable/background_one" />
 
             <TextView
                 android:id="@+id/text_item"
@@ -33,6 +33,7 @@
                 android:textAlignment="center"
                 android:textSize="24sp"
                 android:textStyle="bold" />
+
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 </RelativeLayout>
